@@ -12,7 +12,9 @@ void main() {
 class MyApp extends StatelessWidget {
   AgoraClient client = AgoraClient(
     agoraConnectionData: agoraConnectionData,
-    enabledPermission: [],
+    enabledPermission: [
+      Permission.camera
+    ],
   );
   @override
   Widget build(BuildContext context) {
