@@ -13,12 +13,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: IndexPage(),
-: 'Increment',
-        child: const Icon(Icons.add),
-      ),
-: 'Increment',
-        child: const Icon(Icons.add),
-      ),
+
     );
   }
 }
