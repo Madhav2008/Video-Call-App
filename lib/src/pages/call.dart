@@ -119,7 +119,7 @@ class _CallPageState extends State<CallPage> {
       (int uid) => list.add(
         RtcRemoteView.SurfaceView(
           uid: uid,
-          channelId: 'abc',
+          channelId: '1b3a5334875140f5a7123d7dff0f6704',
         ),
       ),
     );
