@@ -10,7 +10,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  AgoraClient client =
+  AgoraClient client = 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
