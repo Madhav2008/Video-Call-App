@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
     agoraConnectionData: agoraConnectionData,
     enabledPermission: [
       Permission.camera,
+      Permission.microphone
     ],
   );
   @override
