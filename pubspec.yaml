@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   agora_rtc_engine: 
   permission_handler: 
-  agora_uikit
+  agora_uikit: 
 
 dev_dependencies:
   flutter_test:
