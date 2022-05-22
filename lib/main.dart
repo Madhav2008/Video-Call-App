@@ -1,26 +1,10 @@
-import 'package:agora_uikit/agora_uikit.dart';
-import 'package:agora_uikit_example/app_id.dart
 import 'package:flutter/material.dart';
+import './src/pages/index.dart';
 
-// import './src/pages/index.dart';
-
-void main() {
-  runApp(
-    MyApp(),
-  );
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  AgoraClient client = AgoraClient(
-    agoraConnectionData: AgoraConnectionData(
-      appId: appId,
-      channelName: channelName,
-    ),
-    enabledPermission: [
-      Permission.camera,
-      Permission.microphone,
-    ],
-  );
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -29,6 +13,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: IndexPage(),
+: 'Increment',
+        child: const Icon(Icons.add),
+      ),
+: 'Increment',
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
