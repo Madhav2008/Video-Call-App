@@ -4,8 +4,8 @@ import './src/pages/index.dart';
 
 void main() {
   runApp(
-      MyApp(),
-    );
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
