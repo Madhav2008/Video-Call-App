@@ -11,7 +11,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   AgoraClient client = AgoraClient(
-    agoraConnectionData: AgoraConnectionData,
+    agoraConnectionData: AgoraConnectionData(),
     enabledPermission: [
       Permission.camera,
       Permission.microphone,
