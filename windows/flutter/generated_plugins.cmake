@@ -4,6 +4,7 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
   agora_rtc_engine
+  permission_handler_windows
 )
 
 set(PLUGIN_BUNDLED_LIBRARIES)
