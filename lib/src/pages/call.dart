@@ -120,7 +120,7 @@ class _CallPageState extends State<CallPage> {
             uid: uid,
             channelId: 'abc',
           ),
-        ));
+        ),);
     return list;
   }
 
